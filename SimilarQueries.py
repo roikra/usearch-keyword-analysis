@@ -2,8 +2,8 @@ import requests
 
 URL = "https://keyword-analysis.p.rapidapi.com/api/query/SimilarQueries"
 HEADERS = {
-    'x-rapidapi-host': "keyword-analysis.p.rapidapi.com",
-    'x-rapidapi-key': "Your-X-RapidAPI-Key"
+    "x-rapidapi-host": "keyword-analysis.p.rapidapi.com",
+    "x-rapidapi-key": "Your-X-RapidAPI-Key"
 }
 
 querystring = {"q": "john wick 3"}
